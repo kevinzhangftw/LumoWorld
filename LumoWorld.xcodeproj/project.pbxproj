@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B40FFA1D8DE3CA009D7BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B40FF91D8DE3CA009D7BCA /* AppDelegate.swift */; };
+		34B40FFC1D8DE3CA009D7BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B40FFB1D8DE3CA009D7BCA /* ViewController.swift */; };
+		34B40FFF1D8DE3CA009D7BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B40FFD1D8DE3CA009D7BCA /* Main.storyboard */; };
+		34B410011D8DE3CA009D7BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B410001D8DE3CA009D7BCA /* Assets.xcassets */; };
+		34B410041D8DE3CA009D7BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B410021D8DE3CA009D7BCA /* LaunchScreen.storyboard */; };
+		34B4100F1D8DE3CA009D7BCA /* LumoWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4100E1D8DE3CA009D7BCA /* LumoWorldTests.swift */; };
+		34B4101A1D8DE3CA009D7BCA /* LumoWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B410191D8DE3CA009D7BCA /* LumoWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B4100B1D8DE3CA009D7BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B40FEE1D8DE3C9009D7BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B40FF51D8DE3C9009D7BCA;
+			remoteInfo = LumoWorld;
+		};
+		34B410161D8DE3CA009D7BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B40FEE1D8DE3C9009D7BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B40FF51D8DE3C9009D7BCA;
+			remoteInfo = LumoWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34B40FF61D8DE3C9009D7BCA /* LumoWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumoWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B40FF91D8DE3CA009D7BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B40FFB1D8DE3CA009D7BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B40FFE1D8DE3CA009D7BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B410001D8DE3CA009D7BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B410031D8DE3CA009D7BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B410051D8DE3CA009D7BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B4100A1D8DE3CA009D7BCA /* LumoWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B4100E1D8DE3CA009D7BCA /* LumoWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoWorldTests.swift; sourceTree = "<group>"; };
+		34B410101D8DE3CA009D7BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B410151D8DE3CA009D7BCA /* LumoWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B410191D8DE3CA009D7BCA /* LumoWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoWorldUITests.swift; sourceTree = "<group>"; };
+		34B4101B1D8DE3CA009D7BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B40FF31D8DE3C9009D7BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410071D8DE3CA009D7BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410121D8DE3CA009D7BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B40FED1D8DE3C9009D7BCA = {
+			isa = PBXGroup;
+			children = (
+				34B40FF81D8DE3CA009D7BCA /* LumoWorld */,
+				34B4100D1D8DE3CA009D7BCA /* LumoWorldTests */,
+				34B410181D8DE3CA009D7BCA /* LumoWorldUITests */,
+				34B40FF71D8DE3C9009D7BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B40FF71D8DE3C9009D7BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B40FF61D8DE3C9009D7BCA /* LumoWorld.app */,
+				34B4100A1D8DE3CA009D7BCA /* LumoWorldTests.xctest */,
+				34B410151D8DE3CA009D7BCA /* LumoWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B40FF81D8DE3CA009D7BCA /* LumoWorld */ = {
+			isa = PBXGroup;
+			children = (
+				34B40FF91D8DE3CA009D7BCA /* AppDelegate.swift */,
+				34B40FFB1D8DE3CA009D7BCA /* ViewController.swift */,
+				34B40FFD1D8DE3CA009D7BCA /* Main.storyboard */,
+				34B410001D8DE3CA009D7BCA /* Assets.xcassets */,
+				34B410021D8DE3CA009D7BCA /* LaunchScreen.storyboard */,
+				34B410051D8DE3CA009D7BCA /* Info.plist */,
+			);
+			path = LumoWorld;
+			sourceTree = "<group>";
+		};
+		34B4100D1D8DE3CA009D7BCA /* LumoWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B4100E1D8DE3CA009D7BCA /* LumoWorldTests.swift */,
+				34B410101D8DE3CA009D7BCA /* Info.plist */,
+			);
+			path = LumoWorldTests;
+			sourceTree = "<group>";
+		};
+		34B410181D8DE3CA009D7BCA /* LumoWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B410191D8DE3CA009D7BCA /* LumoWorldUITests.swift */,
+				34B4101B1D8DE3CA009D7BCA /* Info.plist */,
+			);
+			path = LumoWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B40FF51D8DE3C9009D7BCA /* LumoWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B4101E1D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorld" */;
+			buildPhases = (
+				34B40FF21D8DE3C9009D7BCA /* Sources */,
+				34B40FF31D8DE3C9009D7BCA /* Frameworks */,
+				34B40FF41D8DE3C9009D7BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumoWorld;
+			productName = LumoWorld;
+			productReference = 34B40FF61D8DE3C9009D7BCA /* LumoWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B410091D8DE3CA009D7BCA /* LumoWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B410211D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorldTests" */;
+			buildPhases = (
+				34B410061D8DE3CA009D7BCA /* Sources */,
+				34B410071D8DE3CA009D7BCA /* Frameworks */,
+				34B410081D8DE3CA009D7BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B4100C1D8DE3CA009D7BCA /* PBXTargetDependency */,
+			);
+			name = LumoWorldTests;
+			productName = LumoWorldTests;
+			productReference = 34B4100A1D8DE3CA009D7BCA /* LumoWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B410141D8DE3CA009D7BCA /* LumoWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B410241D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorldUITests" */;
+			buildPhases = (
+				34B410111D8DE3CA009D7BCA /* Sources */,
+				34B410121D8DE3CA009D7BCA /* Frameworks */,
+				34B410131D8DE3CA009D7BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B410171D8DE3CA009D7BCA /* PBXTargetDependency */,
+			);
+			name = LumoWorldUITests;
+			productName = LumoWorldUITests;
+			productReference = 34B410151D8DE3CA009D7BCA /* LumoWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B40FEE1D8DE3C9009D7BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Zhang";
+				TargetAttributes = {
+					34B40FF51D8DE3C9009D7BCA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					34B410091D8DE3CA009D7BCA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 34B40FF51D8DE3C9009D7BCA;
+					};
+					34B410141D8DE3CA009D7BCA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 34B40FF51D8DE3C9009D7BCA;
+					};
+				};
+			};
+			buildConfigurationList = 34B40FF11D8DE3C9009D7BCA /* Build configuration list for PBXProject "LumoWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B40FED1D8DE3C9009D7BCA;
+			productRefGroup = 34B40FF71D8DE3C9009D7BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B40FF51D8DE3C9009D7BCA /* LumoWorld */,
+				34B410091D8DE3CA009D7BCA /* LumoWorldTests */,
+				34B410141D8DE3CA009D7BCA /* LumoWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B40FF41D8DE3C9009D7BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B410041D8DE3CA009D7BCA /* LaunchScreen.storyboard in Resources */,
+				34B410011D8DE3CA009D7BCA /* Assets.xcassets in Resources */,
+				34B40FFF1D8DE3CA009D7BCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410081D8DE3CA009D7BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410131D8DE3CA009D7BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B40FF21D8DE3C9009D7BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B40FFC1D8DE3CA009D7BCA /* ViewController.swift in Sources */,
+				34B40FFA1D8DE3CA009D7BCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410061D8DE3CA009D7BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B4100F1D8DE3CA009D7BCA /* LumoWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B410111D8DE3CA009D7BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B4101A1D8DE3CA009D7BCA /* LumoWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B4100C1D8DE3CA009D7BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B40FF51D8DE3C9009D7BCA /* LumoWorld */;
+			targetProxy = 34B4100B1D8DE3CA009D7BCA /* PBXContainerItemProxy */;
+		};
+		34B410171D8DE3CA009D7BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B40FF51D8DE3C9009D7BCA /* LumoWorld */;
+			targetProxy = 34B410161D8DE3CA009D7BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B40FFD1D8DE3CA009D7BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B40FFE1D8DE3CA009D7BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B410021D8DE3CA009D7BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B410031D8DE3CA009D7BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B4101C1D8DE3CA009D7BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B4101D1D8DE3CA009D7BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B4101F1D8DE3CA009D7BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LumoWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34B410201D8DE3CA009D7BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LumoWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34B410221D8DE3CA009D7BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LumoWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumoWorld.app/LumoWorld";
+			};
+			name = Debug;
+		};
+		34B410231D8DE3CA009D7BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LumoWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LumoWorld.app/LumoWorld";
+			};
+			name = Release;
+		};
+		34B410251D8DE3CA009D7BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LumoWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LumoWorld;
+			};
+			name = Debug;
+		};
+		34B410261D8DE3CA009D7BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LumoWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.LumoWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LumoWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B40FF11D8DE3C9009D7BCA /* Build configuration list for PBXProject "LumoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B4101C1D8DE3CA009D7BCA /* Debug */,
+				34B4101D1D8DE3CA009D7BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B4101E1D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B4101F1D8DE3CA009D7BCA /* Debug */,
+				34B410201D8DE3CA009D7BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34B410211D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B410221D8DE3CA009D7BCA /* Debug */,
+				34B410231D8DE3CA009D7BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34B410241D8DE3CA009D7BCA /* Build configuration list for PBXNativeTarget "LumoWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B410251D8DE3CA009D7BCA /* Debug */,
+				34B410261D8DE3CA009D7BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B40FEE1D8DE3C9009D7BCA /* Project object */;
+}
